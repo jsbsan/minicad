@@ -20,7 +20,8 @@ Permite a los usuarios dibujar formas geométricas, gestionar capas, agrupar obj
 
 Primero, descarga el código fuente del proyecto desde GitHub clonando el repositorio:
 
-git clone \[https://github.com/jsbsan/minicad.git\](https://github.com/jsbsan/minicad.git)  
+git clone https://github.com/jsbsan/minicad.git  
+
 cd minicad
 
 A partir de aquí, tienes dos opciones para ejecutar la aplicación:
