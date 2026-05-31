@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  minicad:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: minicad-app
+    ports:
+      # Mapeamos el puerto 8080 de tu PC al puerto 80 del contenedor Nginx
+      - "8080:80"
+    restart: unless-stopped
